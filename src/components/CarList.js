@@ -1,5 +1,4 @@
 import React from 'react'
-import CarShow from './CarShow'
 import {useState} from "react"
 import SideBar from './SideBar'
 import CarInfo from './CarInfo'
@@ -13,7 +12,7 @@ function CarList({cars}) {
   }
 
   return (
-    <div className="container mx-auto mt-60 flex justify-between">
+    <div className="container mx-auto mt-60 flex justify-between" id="car-item-responsive">
       <SideBar onChoose={handleClick} cars={cars} carSelected={car}/>
       <img src={car.img} alt="specific car"/>
       <CarInfo car={car} />

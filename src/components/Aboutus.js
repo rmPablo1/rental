@@ -9,8 +9,8 @@ function Aboutus() {
   return (
     <div>
       <img src={carsImage} className="mx-auto mt-0" alt="3 cars"/>
-      <div className="flex flex-row justify-around">
-        <div className="flex flex-col w-2/5">
+      <div className="flex flex-row justify-around" id="aboutus-responsive">
+        <div className="flex flex-col w-2/5" id="sidebar-responsive">
           <p className="text-2xl font-bold mb-2">Why Choose Us</p>
           <h3 className="text-5xl font-bold mb-5">Best valued deals you will ever find</h3>
           <p className="mb-10">
@@ -26,21 +26,21 @@ function Aboutus() {
             <img src={aboutus1} alt="aboutus"/>
             <div>
               <h3 className="text-2xl font-bold mb-2">Cross Country Drive</h3>
-              <p className="w-80">Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
+              <p className="w-80" id="item-card">Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
             </div>
           </div>
           <div className="flex mb-10">
             <img src={aboutus2} alt="aboutus"/>
             <div>
               <h3 className="text-2xl font-bold mb-2">All inclusive Pricing</h3>
-              <p className="w-80">Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
+              <p className="w-80" id="item-card">Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
             </div>
           </div>
           <div className="flex mb-10">
             <img src={aboutus3} alt="about us" />
             <div>
               <h3 className="text-2xl font-bold mb-2">No Hidden Charges</h3>
-              <p className="w-80">Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
+              <p className="w-80" id="item-card">Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
             </div>
           </div>
         </div>
