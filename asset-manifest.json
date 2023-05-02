@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rental/static/css/main.a299149a.css",
+    "main.js": "/rental/static/js/main.67880d07.js",
+    "static/media/herobannercar.png": "/rental/static/media/herobannercar.c2c8bc27d37d76df27fa.png",
+    "static/media/maribel.png": "/rental/static/media/maribel.95876f1ff810a1feee2b.png",
+    "static/media/3cars.png": "/rental/static/media/3cars.70cd75042bdf42515d92.png",
+    "static/media/pablo.png": "/rental/static/media/pablo.27bf1fb32ab4f3c3e380.png",
+    "static/media/car4.jpg": "/rental/static/media/car4.84ab73b0c9133418f907.jpg",
+    "static/media/car6.jpg": "/rental/static/media/car6.bd82bd1deac8c11e3c4d.jpg",
+    "static/media/car5.jpg": "/rental/static/media/car5.0a6153731a2c1a68054a.jpg",
+    "static/media/car2.jpg": "/rental/static/media/car2.595c0bbfc7ce2e50aa05.jpg",
+    "static/media/car3.jpg": "/rental/static/media/car3.3d493a56558c50b677cc.jpg",
+    "static/media/car1.jpg": "/rental/static/media/car1.d038cf70b700e34e607a.jpg",
+    "static/media/playstore.svg": "/rental/static/media/playstore.e6493904327fe3f9b89c7c75a4f3ae74.svg",
+    "static/media/appstore.svg": "/rental/static/media/appstore.35481c6295b0744dfcc00d35874fbdd8.svg",
+    "index.html": "/rental/index.html",
+    "main.a299149a.css.map": "/rental/static/css/main.a299149a.css.map",
+    "main.67880d07.js.map": "/rental/static/js/main.67880d07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a299149a.css",
+    "static/js/main.67880d07.js"
+  ]
+}
