@@ -12,8 +12,8 @@ function Reviews() {
         Discover the positive impact we've made on the our clients by reading through their testimonials.
         Our clients have experienced our service and results, and they're eager to share their positive experiences with you.
       </p>
-      <div className="flex gap-10 mt-20">
-        <div className="bg-white  w-2/4 p-10 drop-shadow-lg">
+      <div className="flex gap-10 mt-20" id="container-reviews">
+        <div className="bg-white  w-2/4 p-10 drop-shadow-lg" id="card-reviews">
           <p className="text-3xl">
           "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "
           </p>
@@ -28,7 +28,7 @@ function Reviews() {
             <ImQuotesRight className="text-6xl text-orange-500"/>
           </div>
         </div>
-        <div className="bg-white w-2/4 p-10 drop-shadow-lg">
+        <div className="bg-white w-2/4 p-10 drop-shadow-lg" id="card-reviews">
           <p className="text-3xl">
             "The car was in great condition and made our trip even better. Highly recommend for this car rental website!"
           </p>

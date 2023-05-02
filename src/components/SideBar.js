@@ -12,7 +12,7 @@ function SideBar({cars, onChoose, carSelected}) {
     return <Button onClick={()=>handleClick(car)} key={car.name} className="bg-gray-200 hover:bg-orange-500 mb-2 font-bold text-xl hover:text-white">{car.name}</Button>
   })
   return (
-    <div className="flex flex-col w-1/4">{renderedCars}</div>
+    <div className="flex flex-col w-1/4" id="sidebar-responsive">{renderedCars}</div>
   )
 }
 

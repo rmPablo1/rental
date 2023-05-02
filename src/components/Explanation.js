@@ -7,8 +7,8 @@ function Explanation() {
     <div className="container mx-auto mt-20">
       <div className="flex flex-col items-center">
         <h3 className="text-4xl font-bold mb-10">Plan your trip now</h3>
-        <h2 className="text-6xl font-bold mb-20">Quick & easy car rental</h2>
-        <div className="flex items-center">
+        <h2 className="text-6xl font-bold mb-20" id="title-explanation">Quick & easy car rental</h2>
+        <div className="flex items-center" id="explanation-responsive">
           <div className="flex flex-col">
             <img src={tutorial1} className="w-2/5 self-center" alt="tutorial"/>
             <h3 className="font-bold text-3xl text-center">
