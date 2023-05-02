@@ -90,6 +90,23 @@
   .container-custom2{
     width:95%;
   }
+
+  #center-text{
+    align-self: center;
+  }
+
+  #hero-responsive{
+    width:100%;
+    gap:20px;
+    margin: 0;
+  }
+
+  #image-hero-responsive{
+    display:none
+  }
+  #hide-hero-responsive{
+    display:none
+  }
 }
 
 @media (max-width: 500px){

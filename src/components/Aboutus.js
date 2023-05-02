@@ -11,8 +11,8 @@ function Aboutus() {
       <img src={carsImage} className="mx-auto mt-0" alt="3 cars"/>
       <div className="flex flex-row justify-around" id="aboutus-responsive">
         <div className="flex flex-col w-2/5" id="sidebar-responsive">
-          <p className="text-2xl font-bold mb-2">Why Choose Us</p>
-          <h3 className="text-5xl font-bold mb-5">Best valued deals you will ever find</h3>
+          <p className="text-2xl font-bold mb-2" id="center-text">Why Choose Us</p>
+          <h3 className="text-5xl font-bold mb-5" id="center-text">Best valued deals you will ever find</h3>
           <p className="mb-10">
             Discover the best deals you'll ever find with our unbeatable offers.
             We're dedicated to providing you with the best value for your money,
