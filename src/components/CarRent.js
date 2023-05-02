@@ -6,7 +6,7 @@ function CarRent() {
       <form className="flex flex-col gap-5 z-10 px-20 py-10">
         <div className="flex gap-10 justify-between">
             <div className="flex flex-col flex-wrap  w-1/3">
-              <label className="font-bold m-2">Select Your Car Type *</label>
+              <label className="font-bold m-2">Select a Car*</label>
               <select className="pl-3 h-10 border">
                 <option value="volvo">Volvo</option>
                 <option value="audi">Audi</option>
